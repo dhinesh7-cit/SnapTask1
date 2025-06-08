@@ -80,6 +80,22 @@
   line-height: 20px;
   font-weight: 500;
 }
+.visitBtn {
+  margin-top: 24px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.visitBtn:hover {
+  background-color: #005ccc;
+}
+
 
 a.primary {
   background: var(--foreground);
