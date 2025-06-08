@@ -11,7 +11,7 @@ export default function Contact() {
       <main className={styles.container}>
         <h1 className={styles.heading}>Get in Touch</h1>
         <p className={styles.subtext}>
-          Have feedback, questions, or collaboration ideas? We'd love to hear from you!
+          Have feedback, questions, or collaboration ideas? We d love to hear from you!
         </p>
         <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
           <input type="text" placeholder="Your Name" className={styles.input} required />
